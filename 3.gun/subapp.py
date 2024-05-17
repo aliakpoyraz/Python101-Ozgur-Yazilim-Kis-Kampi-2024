@@ -23,5 +23,5 @@ def defaultParolaOlusturma(adi, soyadi, ogrenciNu, telefonNu):
     return parolaString
 
 
-# generated_parola = defaultParolaOlusturma("Ali", "Akpoyraz", "230205048", "5346574464")
+# generated_parola = defaultParolaOlusturma("Ali", "Akpoyraz", "7777", "5346577777")
 # print("Parola Sonucu:", generated_parola)
