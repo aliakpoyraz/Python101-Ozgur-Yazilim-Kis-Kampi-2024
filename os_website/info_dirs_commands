@@ -1,0 +1,13 @@
+
+# /proc/cpuinfo
+# /etc/os-release
+# /proc/version
+# /proc/meminfo
+# ifconfig
+# lsmem
+# lscpu
+# lsblk
+# printenv
+
+# sudo apt install net-tools
+

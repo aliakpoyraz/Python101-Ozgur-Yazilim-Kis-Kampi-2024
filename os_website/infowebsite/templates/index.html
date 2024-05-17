@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .cover-container {
+            position: relative;
+            height: 300px; /* Kapak fotoğrafının yüksekliğini istediğiniz değere ayarlayabilirsiniz */
+        }
+
+        .cover-photo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            opacity: 0.1;
+        }
+
+        .content-wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 800px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {        .container {
+            text-align: center;
+        }
+
+        input[type="submit"] {
+            border: none;
+            border-radius: 50%;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: #fff;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+            text-align: center;
+        }
+
+        input[type="submit"] {
+            border: none;
+            border-radius: 50%;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: #fff;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+    </style>
+    <title>Python - 101 #OYK2024KIS </title>
+</head>
+<body>
+
+    <div class="cover-container">
+        <img class="cover-photo" src="{{ url_for('static', filename='cover.png') }}" alt="Kapak Fotoğrafı">
+
+
+        <div class="content-wrapper">
+<form>
+        <div class="container">
+            <form method="post" action="">
+                <input type="submit" value="Sayfayı Yenile">
+            </form>
+    </div>
+</form>
+<h1>CPU and Block Output</h1>
+
+<h2>lsblk Output:</h2>
+{% if blk_output %} 
+{{ blk_output }}
+{% endif %}
+<h2>lscpu Output: </h2>
+{% if cpu_output %} 
+{{cpu_output}}
+{% endif %}
+<h2>Sys Output: </h2>
+{% if sys_output %} 
+{{sys_output}}
+{% endif %}
+<h2>Python Version: </h2>
+{% if pyver %} 
+{{pyver[0]}}.{{pyver[1]}}.{{pyver[2]}}
+{% endif %}
+
+<h2>system Detail Information: </h2>
+{% if plat_psu %} 
+{{plat_psu[0]}}
+
+{{plat_psu[1]}}
+
+{{plat_psu[2]}}
+{% endif %}
+
+<h2>CPU Core Count: </h2>
+{% if psu_coreCount %} 
+{{psu_coreCount}}
+{% endif %}
+
+<h2>Network Information: </h2>
+{% if networkInfo %} 
+{{networkInfo}}
+{% endif %}
+
+
+<h1>
+    Katkı Sağlayanlar:
+    
+    </h1>
+    <h2>
+        Ali Akpoyraz, Ceren Bulut, Esra Akbulak, İlhan Deveci, İlay Kösmene, Nisan Bildik, Emre Can Şen, Melih Muşmul, Fadil Pala 
+    </h2>
+        </div>
+    </div>
+
+</body>
+</html>

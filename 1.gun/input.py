@@ -1,0 +1,5 @@
+#type()
+#dir()
+param = input("Ne Kadar Param Var? : ")
+print("Bu Değişkenin Tipi: ", type(param), "Alt parametreleri: " ,dir(param))
+print(param)
