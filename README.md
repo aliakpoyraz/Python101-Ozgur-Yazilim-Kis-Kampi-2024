@@ -1,4 +1,5 @@
-# Mustafa Akgül Özgür Yazılım Kış Kampı 2024 - Python101 Eğitimi
+# Flask System Monitor
+## Mustafa Akgül Özgür Yazılım Kış Kampı 2024 - Python101 Eğitimi Kapsamında Flask ile Sistem Monitörü
 
 Bu repository, Mustafa Akgül Özgür Yazılım Kış Kampı 2024'te gerçekleşen 4 günlük Python101 eğitiminin materyallerini içerir.
 
